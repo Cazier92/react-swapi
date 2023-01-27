@@ -1,6 +1,7 @@
-import { async } from "q";
+
 import { useEffect, useState } from "react";
 import { getAllStarships } from "../../services/sw-api";
+import { Link } from "react-router-dom";
 
 
 const Starships = () => {
@@ -20,7 +21,7 @@ const Starships = () => {
       <>
         {starshipsList.map(starship => 
           <div key={starship.model}>
-            <h5>{starship.name}</h5>
+            <Link to='/starship-details' state={{starship}}>{starship.name}</Link>
           </div>
           )}
       </>
