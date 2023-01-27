@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('/public/Death-Star-I-copy_36ad2500.jpeg');
-  
+  text-align: center;
 }
 
 code {

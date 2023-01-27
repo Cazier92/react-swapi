@@ -17,10 +17,14 @@ const StarshipDetails = (props) => {
   }, [location.state.starship.url])
   return ( 
     <>
-    {/* {starshipDetails.length} */}
-    <h1>{starshipDetails.name}</h1>
-    <h3>{starshipDetails.model}</h3>
-    <Link to='/starships' className="return-link">Return</ Link>
+    <h1 className="title">STAR WARS STARSHIPS</h1>
+    <div className="details-body-div">
+      <div  className="starship-details">
+        <h3 className="details-content">Name: {starshipDetails.name}</h3>
+        <h3 className="details-content">Model: {starshipDetails.model}</h3>
+        <Link to='/starships' className="return-link">Return</ Link>
+      </div>
+    </div>
     </>
   );
 }

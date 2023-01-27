@@ -1,3 +1,38 @@
-h1 {
+h1, h4 {
   color: white;
+}
+
+.title {
+  background-color: #EC4E20;
+  margin: 0;
+  padding: 1vmin;
+}
+
+.body-div {
+  margin: 5vmin 5vmin;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.starship-div {
+  display: flex;
+  /* flex-wrap: wrap; */
+  background-color: #7E8987;
+  width: 20%;
+  height: 13vmin;
+  justify-content: center;
+  align-content: center;
+  margin: 2vmin;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.starship-link {
+  text-decoration: none;
+  color: white;
+  font-size: 3vmin;
+  /* height: 10vmin; */
 }

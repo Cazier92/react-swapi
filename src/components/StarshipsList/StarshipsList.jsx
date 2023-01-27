@@ -17,18 +17,20 @@ const Starships = () => {
   }, [])
   return ( 
     <>
-      <h1>STAR WARS STARSHIPS</h1>
+      <h1 className="title">STAR WARS STARSHIPS</h1>
       {starshipsList.length ?
       <>
-        {starshipsList.map(starship => 
-          <div key={starship.name}>
-            <Link to='/starship-details' state={{starship}} className='link'>{starship.name}</Link>
-          </div>
-          )}
+        <div className="body-div">
+          {starshipsList.map(starship => 
+            <div key={starship.name} className='starship-div'>
+              <Link to='/starship-details' state={{starship}} className='starship-link'>{starship.name}</Link>
+            </div>
+            )}
+        </div>
       </>
       :
       <>
-        <h4>Loading Starships</h4>
+        <h4>Loading Starships...</h4>
       </>  
     }
     </>
