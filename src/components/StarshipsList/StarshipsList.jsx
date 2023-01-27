@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { getAllStarships } from "../../services/sw-api";
 import { Link } from "react-router-dom";
+import './StarshipList.css'
 
 
 const Starships = () => {
@@ -20,8 +21,8 @@ const Starships = () => {
       {starshipsList.length ?
       <>
         {starshipsList.map(starship => 
-          <div key={starship.model}>
-            <Link to='/starship-details' state={{starship}}>{starship.name}</Link>
+          <div key={starship.name}>
+            <Link to='/starship-details' state={{starship}} className='link'>{starship.name}</Link>
           </div>
           )}
       </>

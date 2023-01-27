@@ -1,0 +1,14 @@
+header {
+  background-color: black;
+  height: 8vmin;
+  display: flex;
+  align-items: center;
+  padding-left: 2vmin;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  margin-right: 5vmin;
+  font-size: 3vmin;
+}

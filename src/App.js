@@ -8,10 +8,12 @@ function App() {
   return (
     <>
     <NavBar />
-    <Routes>
-      <Route path='/starships' element={<Starships />}/>
-      <Route path='/starship-details' element={<StarshipDetails />}/>
-    </Routes>
+
+      <Routes>
+        <Route path='/starships' element={<Starships />}/>
+        <Route path='/starship-details' element={<StarshipDetails />}/>
+      </Routes>
+
     </>
   );
 }
