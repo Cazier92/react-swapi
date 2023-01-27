@@ -6,22 +6,23 @@ h1, h4 {
   background-color: #EC4E20;
   margin: 0;
   padding: 1vmin;
+  font-family: jedi;
 }
 
 .body-div {
   margin: 5vmin 5vmin;
   height: 100%;
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  
+  justify-content: space-around;
 }
 
 .starship-div {
   display: flex;
-  /* flex-wrap: wrap; */
+  font-family: jedi;
   background-color: #0353A4;
-  width: 20%;
+  width: 24%;
   height: 13vmin;
   justify-content: center;
   align-content: center;
@@ -35,5 +36,6 @@ h1, h4 {
   text-decoration: none;
   color: #F5F8DE;
   font-size: 3vmin;
+  padding: 1vmin;
   /* height: 10vmin; */
 }

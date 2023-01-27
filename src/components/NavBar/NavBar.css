@@ -1,6 +1,6 @@
 header {
   background-color: #7E8987;
-  height: 8vmin;
+  height: 6vmin;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -12,4 +12,5 @@ header {
   text-decoration: none;
   font-size: 3vmin;
   font-weight: 500;
+  font-family: jedi;
 }

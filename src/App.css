@@ -37,3 +37,8 @@
   }
 }
 
+@font-face {
+  font-family: 'Jedi';
+  src: local('Starjedi'),
+  url('./fonts/Starjedi.ttf') format('truetype')
+}

@@ -17,7 +17,7 @@ const Starships = () => {
   }, [])
   return ( 
     <>
-      <h1 className="title">STAR WARS STARSHIPS</h1>
+      <h1 className="title">STAR WARS STARSHiPS</h1>
       {starshipsList.length ?
       <>
         <div className="body-div">
