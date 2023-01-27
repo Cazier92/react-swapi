@@ -1,5 +1,5 @@
 h1, h4 {
-  color: white;
+  color: #F5F8DE;
 }
 
 .title {
@@ -20,19 +20,20 @@ h1, h4 {
 .starship-div {
   display: flex;
   /* flex-wrap: wrap; */
-  background-color: #7E8987;
+  background-color: #0353A4;
   width: 20%;
   height: 13vmin;
   justify-content: center;
   align-content: center;
   margin: 2vmin;
   border-radius: 5px;
+  border: 3px solid #7E8987;
   align-items: center;
 }
 
 .starship-link {
   text-decoration: none;
-  color: white;
+  color: #F5F8DE;
   font-size: 3vmin;
   /* height: 10vmin; */
 }

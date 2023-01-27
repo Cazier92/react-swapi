@@ -1,14 +1,15 @@
 header {
-  background-color: black;
+  background-color: #7E8987;
   height: 8vmin;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   padding-left: 2vmin;
 }
 
 .link {
-  color: white;
+  color: #F5F8DE;
   text-decoration: none;
-  margin-right: 5vmin;
   font-size: 3vmin;
+  font-weight: 500;
 }

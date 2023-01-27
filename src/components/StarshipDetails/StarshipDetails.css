@@ -1,16 +1,16 @@
 h1, h3 {
-  color: white;
+  color: #F5F8DE;
 }
 
 .return-link {
   font-size: 2vmin;
-  color: white;
+  color: #F5F8DE;
   font-weight: 500;
   margin: 2vmin 0 0 2vmin;
 }
 
 .details-body-div {
-  margin: 5vmin 5vmin;
+  margin: 10vmin 5vmin;
   height: 100%;
   width: 100%;
   display: flex;
@@ -20,14 +20,16 @@ h1, h3 {
 }
 
 .starship-details {
-  background-color: #7E8987;
+  background-color: #0353A4;
   padding: 0 3vmin 3vmin 3vmin;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   border-radius: 5px;
+  border: 3px solid #7E8987;
 }
 
 .details-content {
   margin: 2vmin 0 0 2vmin;
+  color: #F5F8DE;
 }
